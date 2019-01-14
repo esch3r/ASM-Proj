@@ -1,3 +1,12 @@
+/*
+ * Lab 1.asm
+ *
+ *  Created: 1/14/2018 11:16:51 AM
+ *   Author: Johnathan Machler
+ */ 
+
+
+
 Begin:  ldi r16,High(RAMEND)
         out SPH,r16
         ldi r16,Low(RAMEND)
